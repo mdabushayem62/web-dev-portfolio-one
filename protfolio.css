@@ -42,6 +42,9 @@
     background: #FFF8F3;
 
 }
+ .texcen {
+    text-align: center;
+}
 /* headerstyle */
 .hd{
 
@@ -105,12 +108,16 @@ main{
     margin: auto;
 }
 
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* about style */
 .about{
     border-radius: 10px;
     text-align: center;
     padding: 130px 150px;
-    margin-top: 130px;
+   
 
 }
 
@@ -122,4 +129,21 @@ main{
     display: flex;
     justify-content: space-around;
    padding: 30px;
+}
+
+.skillcontainer {
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skilldesk{
+    padding: 20px;
+    color: #757575;
+}
+.skill-description{
+    color:#757575  ;
 }
