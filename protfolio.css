@@ -147,3 +147,43 @@ main section{
 .skill-description{
     color:#757575  ;
 }
+.resumecontainer{
+    display: flex;
+    gap: 24px;
+}
+.resume-colum-title{
+    color: #474747;
+}
+
+.exprience-desccription{
+    color: #757575;
+}
+.exprience-sub-title{
+    font-size: 15px;
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.downloadcv{
+     text-align: center;
+     margin-top: 50px;
+}
+.resumeh3{
+     font-weight: bold;
+     text-align: center;
+     margin-bottom: 50px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+    
+
+footer{
+
+ padding: 130px 230px;
+ background-color: #FFF8F3 ;
+ display: flex;
+ gap: 100px;
+}
